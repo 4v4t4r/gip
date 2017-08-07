@@ -10,13 +10,13 @@ import json
 class GipPipeline(object):
 
     def open_spider(self,spider):
-        self.file = open('item.txt','w')
+        self.file = open('item.tt','w')
 
     def close_spider(self,spider):
         self.file.close()
 
     def process_item(self, item, spider):
         # line = json.dumps(dict(item)) + "\n"
-        line = json.dumps(dict(item['ip'])) + "\n"
+        line = item['ip']+ "\n"
         self.file.write(line)
         return item
