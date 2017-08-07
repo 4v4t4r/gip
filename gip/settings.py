@@ -41,9 +41,9 @@ ROBOTSTXT_OBEY = True
 
 # Override the default request headers:
 DEFAULT_REQUEST_HEADERS = {
-   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-   'Accept-Language': 'zh-CN,zh;q=0.8',
-   'Cookie' : 'first_referrer=http%3A%2F%2Fipinfo.io%2FAS15169; last_referrer=http%3A%2F%2Fipinfo.io%2FAS15169%2F74.125.138.0%2F24; _ga=GA1.2.2013120180.1502095704; _gid=GA1.2.2133593197.1502095704'
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'Accept-Language': 'zh-CN,zh;q=0.8',
+    'Cookie': 'first_referrer=http%3A%2F%2Fipinfo.io%2FAS15169; last_referrer=http%3A%2F%2Fipinfo.io%2FAS15169%2F74.125.138.0%2F24; _ga=GA1.2.2013120180.1502095704; _gid=GA1.2.2133593197.1502095704'
 ,}
 
 # Enable or disable spider middlewares

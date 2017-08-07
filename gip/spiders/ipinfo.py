@@ -12,7 +12,7 @@ class IpinfoSpider(scrapy.Spider):
 
             for url1 in temp.xpath('tr[@class = "hidden"]/td[1]/a'):
                 item = GipItem()
-                item['ip'] = url1.xpath('@href').extract()[0]
+                item['ip'] = url1.xpath('@href').extract()[0][9:]
                 #print(url1.xpath('@href').extract()[0][9:])
                 yield item
 
